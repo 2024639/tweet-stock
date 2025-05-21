@@ -1,5 +1,5 @@
 ```markdown
-# 📈 TSLA Stock Price Forecasting Using LSTM + Streamlit Dashboard
+#  TSLA Stock Price Forecasting Using LSTM + Streamlit Dashboard
 
 This project implements a **Long Short-Term Memory (LSTM)** deep learning model to forecast **Tesla (TSLA)** stock prices over multiple time horizons (1-Day, 3-Day, and 7-Day forecasts). The project also includes an interactive **Streamlit dashboard** to visualize the actual vs predicted prices, RMSE evaluation, and future price forecasts.
 
