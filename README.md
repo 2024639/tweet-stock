@@ -102,9 +102,7 @@ streamlit run dashboard.py
 
 ##  Sample Dashboard Screenshots
 
-![Actual vs Predicted](screenshots/actual_vs_predicted.png)
-![Future Forecast](screenshots/future_forecast.png)
-![RMSE Evaluation](screenshots/rmse_scores.png)
+![Actual vs Predicted](tweet-stock.png)
 
 ---
 
@@ -146,7 +144,7 @@ streamlit run dashboard.py
 
 ---
 
-## 📚 Future Improvements
+##  Future Improvements
 
 * Integrate live stock data from an API (e.g., Yahoo Finance, Alpha Vantage).
 * Add sentiment analysis from Twitter data.
@@ -155,13 +153,7 @@ streamlit run dashboard.py
 
 ---
 
-## 🧑 Author
 
-**Muhammad Jamshed**
-Frontend & ML Developer
-Email: [jamshedmsd589@gmail.com](mailto:jamshedmsd589@gmail.com) | GitHub: [@jamshed-dev](https://github.com/)
-
----
 
 ## 📜 License
 
