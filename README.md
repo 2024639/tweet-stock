@@ -5,7 +5,7 @@ This project implements a **Long Short-Term Memory (LSTM)** deep learning model 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project has two main parts:
 
@@ -19,7 +19,7 @@ This project has two main parts:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -47,7 +47,7 @@ This project has two main parts:
 
 ---
 
-## 🧠 Model Development Process
+##  Model Development Process
 
 ### Step 1: Data Preparation
 - Historical TSLA stock price data was loaded.
@@ -75,7 +75,7 @@ This project has two main parts:
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 Run the Streamlit dashboard to explore the visual results:
 
@@ -83,24 +83,24 @@ Run the Streamlit dashboard to explore the visual results:
 streamlit run dashboard.py
 ````
 
-### 1. 📘 Forecast Comparison: Actual vs Predicted
+### 1.  Forecast Comparison: Actual vs Predicted
 
 * Line chart showing how well the model predicted historical prices.
 * Includes actual and predicted curves for all three forecast models.
 
-### 2. 📅 Future Price Predictions
+### 2.  Future Price Predictions
 
 * Displays the next predicted prices (1, 3, 7 days) as a bar chart.
 * Shows forecasted values in a clean table.
 
-### 3. 📉 RMSE Evaluation
+### 3.  RMSE Evaluation
 
 * JSON-style metrics display for each model's RMSE.
 * Also visualized using a bar chart.
 
 ---
 
-## 🖼️ Sample Dashboard Screenshots
+##  Sample Dashboard Screenshots
 
 ![Actual vs Predicted](screenshots/actual_vs_predicted.png)
 ![Future Forecast](screenshots/future_forecast.png)
@@ -108,7 +108,7 @@ streamlit run dashboard.py
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Create and activate a virtual environment:
 
