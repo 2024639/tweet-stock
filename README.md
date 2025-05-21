@@ -3,7 +3,7 @@
 
 This project implements a **Long Short-Term Memory (LSTM)** deep learning model to forecast **Tesla (TSLA)** stock prices over multiple time horizons (1-Day, 3-Day, and 7-Day forecasts). The project also includes an interactive **Streamlit dashboard** to visualize the actual vs predicted prices, RMSE evaluation, and future price forecasts.
 
----
+
 
 ##  Project Overview
 
@@ -17,7 +17,7 @@ This project has two main parts:
    - Visualizes actual vs predicted prices, RMSE evaluation charts, and future price forecasts.
    - Enhances interpretability and user interaction.
 
----
+
 
 ##  Project Structure
 
@@ -34,7 +34,7 @@ This project has two main parts:
 
 ````
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -45,7 +45,7 @@ This project has two main parts:
 - **Streamlit** for dashboard
 - **LSTM** (Long Short-Term Memory Neural Network)
 
----
+
 
 ##  Model Development Process
 
@@ -73,7 +73,7 @@ This project has two main parts:
 - Models predicted the next 1, 3, and 7-day TSLA closing prices.
 - Forecasts were saved into `future_forecasts.csv`.
 
----
+
 
 ##  Dashboard Features
 
@@ -98,13 +98,13 @@ streamlit run dashboard.py
 * JSON-style metrics display for each model's RMSE.
 * Also visualized using a bar chart.
 
----
+
 
 ##  Sample Dashboard Screenshots
 
 ![Actual vs Predicted](tweet-stock.png)
 
----
+
 
 ##  Setup Instructions
 
@@ -133,7 +133,7 @@ pip install streamlit pandas matplotlib tensorflow
 streamlit run dashboard.py
 ```
 
----
+
 
 ## 🧾 Output Files
 
@@ -142,7 +142,7 @@ streamlit run dashboard.py
 * `rmse_results.json` — RMSE evaluation scores for all models.
 * `model_x_day.h5` — Saved LSTM models for reuse.
 
----
+
 
 ##  Future Improvements
 
@@ -151,7 +151,7 @@ streamlit run dashboard.py
 * Include confidence intervals for forecast values.
 * Deploy dashboard on **Streamlit Cloud** or **Heroku**.
 
----
+
 
 
 
